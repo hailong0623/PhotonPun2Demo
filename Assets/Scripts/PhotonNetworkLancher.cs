@@ -14,9 +14,9 @@ public class PhotonNetworkLancher : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
         base.OnConnectedToMaster();
-        Debug.Log("wecome photon");
+        //Debug.Log("wecome photon");
 
-        PhotonNetwork.JoinOrCreateRoom("Room", new Photon.Realtime.RoomOptions() { MaxPlayers = 4 }, default);
+        PhotonNetwork.JoinOrCreateRoom("Room", new Photon.Realtime.RoomOptions() { MaxPlayers = 10 }, default);
     }
     public override void OnJoinedRoom()
     {
