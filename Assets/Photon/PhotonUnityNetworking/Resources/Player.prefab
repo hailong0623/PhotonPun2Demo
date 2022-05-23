@@ -2547,7 +2547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SynchronizePosition: 1
-  m_SynchronizeRotation: 0
+  m_SynchronizeRotation: 1
   m_SynchronizeScale: 1
   m_UseLocal: 1
 --- !u!114 &6920871134410339425
@@ -2595,6 +2595,9 @@ MonoBehaviour:
   - Type: 4
     SynchronizeType: 2
     Name: IsRun
+  - Type: 1
+    SynchronizeType: 2
+    Name: Horizontal
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0
