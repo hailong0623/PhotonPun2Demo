@@ -38,8 +38,8 @@ ModelImporter:
       name: Walk
       takeName: _1_a_U1_M_P_WalkForward_NtrlFaceFwd__Fb_p0_No_0_PJ_3
       internalID: 0
-      firstFrame: 12
-      lastFrame: 81
+      firstFrame: 43
+      lastFrame: 102
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

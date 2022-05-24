@@ -41,8 +41,8 @@ ModelImporter:
       name: RunRight
       takeName: _31_a_U1_M_P_RunForwardTurnRight_NtrlMedium__Fb_Dia2m_No_0_PJ_4
       internalID: 0
-      firstFrame: 42
-      lastFrame: 180
+      firstFrame: 45
+      lastFrame: 183
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -70,8 +70,8 @@ ModelImporter:
       name: RunLeft
       takeName: _31_a_U1_M_P_RunForwardTurnRight_NtrlMedium__Fb_Dia2m_No_0_PJ_4
       internalID: 0
-      firstFrame: 42
-      lastFrame: 180
+      firstFrame: 45
+      lastFrame: 183
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

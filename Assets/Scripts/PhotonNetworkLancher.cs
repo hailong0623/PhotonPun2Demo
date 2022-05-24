@@ -5,7 +5,7 @@ using Photon.Pun;
 
 public class PhotonNetworkLancher : MonoBehaviourPunCallbacks
 {
-    
+    public bool isPlayerInit { get; set; }
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
@@ -22,5 +22,6 @@ public class PhotonNetworkLancher : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
         PhotonNetwork.Instantiate("Player", Vector3.zero, Quaternion.identity, 0);
+        isPlayerInit = true;
     }
 }
